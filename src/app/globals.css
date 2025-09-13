@@ -1,5 +1,18 @@
 @import "tailwindcss";
 
+/* ...existing code... */
+@font-face {
+  font-family: 'MinhaFonte';
+  src: url('/fonts/Supercell-Magic.woff2') format('woff2'),
+       url('/fonts/Supercell-Magic.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+/* ...existing code... */
+body {
+  font-family: 'MinhaFonte', sans-serif;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;

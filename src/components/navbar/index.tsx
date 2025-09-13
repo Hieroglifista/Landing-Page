@@ -12,9 +12,20 @@ export default function Navbar() {
     return (
         <div>
             {/* Navbar */}
-            <nav className="bg-purple-950 p-4">
-                <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center">
-                    <div className="text-white font-bold text-3xl mb-4 lg:mb-0 hover:text-blue-900 hover:cursor-pointer">SplashYard</div>
+            <nav
+                className="p-4 bg-center"
+                style={{
+                    backgroundImage: "url('https://external-preview.redd.it/GB5Adyp5zzQcoI4Jpbgf8tKfJ6GxgHmT8NHgtcrpi3o.png?width=1080&crop=smart&auto=webp&s=61d2bc28e5204bc4135432bcb40acc7c0d55b137')",
+                    backgroundSize: "250px", // Tamanho menor da imagem
+                    backgroundRepeat: "repeat" // Repete a imagem
+                }}
+            >
+                <div className="container mx-auto flex items-center justify-between flex-wrap">
+                    {/* Logo */}
+                    <div style={{ fontFamily: 'MinhaFonte, sans-serif', color: 'white' }}>
+                        SplashYard
+                    </div>
+
 
                     {/* Hamburger menu for small screens */}
                     <div className="lg:hidden">
@@ -44,12 +55,12 @@ export default function Navbar() {
                         <a href="/" className="text-white  px-4 py-2  hover:text-blue-900">Contact Me</a>
                     </div>
                 </div>
-                
+
             </nav>
 
 
-        </div>
+        </div >
     );
 }
-    
+
 
