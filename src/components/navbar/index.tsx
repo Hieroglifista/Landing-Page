@@ -22,7 +22,7 @@ export default function Navbar() {
             >
                 <div className="container mx-auto flex items-center justify-between flex-wrap">
                     {/* Logo */}
-                    <div style={{ fontFamily: 'MinhaFonte, sans-serif', color: 'white' }}>
+                    <div className="flex flex-wrap" style={{ fontFamily: 'MinhaFonte, sans-serif', color: 'white', fontSize: '24px' }}>
                         SplashYard
                     </div>
 
@@ -49,10 +49,10 @@ export default function Navbar() {
 
                     {/* Navigation links */}
                     <div className={`lg:flex flex-col lg:flex-row ${isOpen ? 'block' : 'hidden'} lg:space-x-4 lg:mt-0 mt-4 flex flex-col items-center text-xl`}>
-                        <a href="/" className="text-white  px-4 py-2 hover:text-blue-900 ">Home</a>
-                        <a href="#Projects" className="text-white  px-4 py-2  hover:text-blue-900">Projects</a>
-                        <a href="/" className="text-white  px-4 py-2  hover:text-blue-900">About</a>
-                        <a href="/" className="text-white  px-4 py-2  hover:text-blue-900">Contact Me</a>
+                        <a href="/" className="text-white  px-4 py-2  hover:text-blue-900 ">Home</a>
+                        <a href="/pagina2" className="text-white  px-4 py-2  hover:text-blue-900">Variações</a>
+                        <a href="/" className="text-white  px-4 py-2  hover:text-blue-900">Trocar dps</a>
+                        <a href="/" className="text-white  px-4 py-2  hover:text-blue-900">Conclusão</a>
                     </div>
                 </div>
 
