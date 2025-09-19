@@ -12,11 +12,11 @@ export default function Home() {
         <Ice></Ice>
       </div>
 
-      <div className="w-25 h-50">
+      <div>
 
-      <img src="https://cdn.discordapp.com/attachments/1387556007143800954/1416202553418322041/helmet.95197221.png?ex=68c948a8&is=68c7f728&hm=6d2d2d8b179a90e644cf4370c0d149a8df108082c8432c80e82f1e52823a8bc8&" alt="" />
+      <img className="w-40 y-80 ml-5" src="https://cdn.discordapp.com/attachments/1387556007143800954/1416202553418322041/helmet.95197221.png?ex=68c948a8&is=68c7f728&hm=6d2d2d8b179a90e644cf4370c0d149a8df108082c8432c80e82f1e52823a8bc8&" alt="" />
 
-      <img src="https://cdn.discordapp.com/attachments/1387556007143800954/1417288603373146262/coinbox.30bc4fd7.png?ex=68c9f05e&is=68c89ede&hm=81fb118c217553b5dd766ff9ff354d55078c3777cd109570e4273f4235b2d66a&" alt="" />
+      <img className="w-40 y-80" src="https://cdn.discordapp.com/attachments/1387556007143800954/1417288603373146262/coinbox.30bc4fd7.png?ex=68c9f05e&is=68c89ede&hm=81fb118c217553b5dd766ff9ff354d55078c3777cd109570e4273f4235b2d66a&" alt="" />
       </div>
 
       <div className="ml-15 w-275 items-left">
