@@ -3,7 +3,6 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
 import Fundo from "@/components/fundo";
-
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -25,13 +24,34 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      ><Navbar></Navbar>
-      <Fundo></Fundo>
-        {children}
-      </body>
-    </html>
+    <>
+      <html lang="pt-BR">
+        <body
+          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        >
+          <Navbar></Navbar>
+          <Fundo></Fundo>
+          {children}
+        </body>
+      </html>
+      <footer className="bg-gray-800 text-green-300 py-4 px-3 mt-16">
+            <div className="container mx-auto flex items-center justify-between">
+                <div className="w-1/3 text-left">
+                    <p>Caio Rodger Elias</p>
+                </div>
+                <div className="w-1/3 flex justify-center">
+                    <img
+                        className="w-40 h-35"
+                        src="https://store.supercell.com/_next/static/media/royale-store-preview-support-figure.20177a6a.png"
+                        alt=""
+                    />
+                </div>
+                <div className="w-1/3 text-right">
+                    <p>Gabriel Hipolito Miranda</p>
+                </div>
+            </div>
+        
+      </footer>
+    </>
   );
 }

@@ -3,7 +3,7 @@ import Ice from "@/components/ice";
 
 export default function Home() {
   return (
-    <main className="flex h-screen">
+    <main className="flex">
       <div className="w-100 h-200">
         <Grave></Grave>
       </div>
@@ -12,9 +12,10 @@ export default function Home() {
         <Ice></Ice>
       </div>
       <div className="flex flex-col justify-between">
-        <img className="mt-325 rounded-sm w-70 h-140" src="https://i.redd.it/dff5z37aniu71.jpg" alt="" />
-        <img className="mt-60 rounded-sm w-70 h-140" src="https://store.supercell.com/_next/static/media/royale-store-preview-cta-figure.a4892669.png" alt="" />
-        <img className="mt-240" src="https://store.supercell.com/_next/static/media/royale-store-preview-support-figure.20177a6a.png" alt="" />
+        <img className="mt-225 rounded-sm w-140 h-140" src="https://i.redd.it/dff5z37aniu71.jpg" alt="" />
+
+        <img className="w-150 h-100" src="https://store.supercell.com/_next/static/media/royale-store-preview-cta-figure.a4892669.png" alt="" />
+
       
       </div>
 
@@ -24,7 +25,7 @@ export default function Home() {
 
 
 
-      <div className="mb-7 flex flex-col items-start justify-start w-300 p-6 tect-left">
+      <div className="text-white mb-7 flex flex-col items-start justify-start w-300 p-6 tect-left">
         <h1 className="bold">Sobre o Jogo</h1>
         <br /> <br />
 
@@ -77,8 +78,8 @@ export default function Home() {
           Composição do Deck: Tenha uma combinação balanceada de cartas ofensivas e defensivas. Um deck com muitas cartas de ataque pode ser eficaz, mas você também precisa de defesas para conter os contra-ataques.
         </p>
 
-        <h1 className=" text-black mt-3" >O QUE É SPLASHYARD?</h1>
-        <p className=" mb-7 text-left text-black mt-3 px-10">
+        <h1 className=" text-white mt-3" >O QUE É SPLASHYARD?</h1>
+        <p className=" mb-7 text-left text-white mt-3 px-10">
 
           SplashYard é um deck estratégico que combina o controle implacável do Tornado com o potencial explosivo do Cemitério. Ideal para jogadores que gostam de ditar o ritmo da partida, o SplashYard brilha tanto na defesa sólida quanto nos contra-ataques cirúrgicos.
           <br /> <br /> <br />
