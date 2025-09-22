@@ -25,16 +25,16 @@ export default function Home() {
 
 
       <div className="mb-7 flex flex-col items-start justify-start w-300 p-6 tect-left">
-        <h1 className="bold">Sobre o Jogo</h1>
+        <h1 className="text-white bold">Sobre o Jogo</h1>
         <br /> <br />
 
-        <p className="px-10">Clash Royale é um jogo de estratégia em tempo real desenvolvido pela Supercell, lançado em 2016. O jogo mistura mecânicas de cartas colecionáveis com batalhas em tempo real, onde os jogadores enfrentam uns aos outros em duelos de até 3 minutos. A missão é destruir as torres do adversário enquanto defende as suas próprias, utilizando cartas que representam unidades, feitiços e edificações com diferentes habilidades e custos de elixir.
+        <p className=" text-white px-10">Clash Royale é um jogo de estratégia em tempo real desenvolvido pela Supercell, lançado em 2016. O jogo mistura mecânicas de cartas colecionáveis com batalhas em tempo real, onde os jogadores enfrentam uns aos outros em duelos de até 3 minutos. A missão é destruir as torres do adversário enquanto defende as suas próprias, utilizando cartas que representam unidades, feitiços e edificações com diferentes habilidades e custos de elixir.
           <br /> <br />
           Cada jogador começa com um deck de 8 cartas, sendo que durante a partida o elixir (um recurso que se recarrega ao longo do tempo) é utilizado para jogar essas cartas no campo de batalha. O jogo oferece uma combinação de estratégia, habilidade e rapidez de tomada de decisão.
         </p>
         <br /> <br />
-        <h1 className="bold">Tutorial e Como Jogar:</h1>
-        <p className="px-10">
+        <h1 className=" text-white bold">Tutorial e Como Jogar:</h1>
+        <p className="text-white px-10">
           <br /> <br />
           Configuração Inicial:
           <br /> <br />
@@ -77,8 +77,8 @@ export default function Home() {
           Composição do Deck: Tenha uma combinação balanceada de cartas ofensivas e defensivas. Um deck com muitas cartas de ataque pode ser eficaz, mas você também precisa de defesas para conter os contra-ataques.
         </p>
 
-        <h1 className=" text-black mt-3" >O QUE É SPLASHYARD?</h1>
-        <p className=" mb-7 text-left text-black mt-3 px-10">
+        <h1 className=" text-white mt-3" >O QUE É SPLASHYARD?</h1>
+        <p className=" mb-7 text-left text-white mt-3 px-10">
 
           SplashYard é um deck estratégico que combina o controle implacável do Tornado com o potencial explosivo do Cemitério. Ideal para jogadores que gostam de ditar o ritmo da partida, o SplashYard brilha tanto na defesa sólida quanto nos contra-ataques cirúrgicos.
           <br /> <br /> <br />
