@@ -51,8 +51,7 @@ export default function Navbar() {
                     <div className={`lg:flex flex-col lg:flex-row ${isOpen ? 'block' : 'hidden'} lg:space-x-4 lg:mt-0 mt-4 flex flex-col items-center text-xl`}>
                         <a href="/" className="text-white  px-4 py-2  hover:text-amber-300 ">Home</a>
                         <a href="/pagina2" className="text-white  px-4 py-2  hover:text-amber-300">Variações</a>
-                        <a href="/" className="text-white  px-4 py-2  hover:text-amber-300">Tutorial</a>
-                        <a href="/" className="text-white  px-4 py-2  hover:text-amber-300">Agradecimentos</a>
+                        <a href="/agradecimentos" className="text-white  px-4 py-2  hover:text-amber-300">Agradecimentos</a>
                     </div>
                 </div>
 

@@ -31,7 +31,7 @@ export default function Página2() {
       <div className="w-100 h-58 flex ">
         <img
           className="w-100 y-200"
-          src="https://cdn.discordapp.com/attachments/1387556007143800954/1417305757694693388/deck.png?ex=68ca0058&is=68c8aed8&hm=119457ddc229cd78656b568325d5fdfd7ed74004af5fcf6a0141d68798fc7a01&"
+          src="/deck.png"
           alt=""
         />
       </div>
