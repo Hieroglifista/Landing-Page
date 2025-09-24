@@ -14,7 +14,7 @@ export default function Home() {
       
         <img className="mt-176 rounded-sm w-260 h-140" src="https://i.redd.it/dff5z37aniu71.jpg" alt="" />
 
-        <img className="w-800 h-100" src="https://store.supercell.com/_next/static/media/royale-store-preview-cta-figure.a4892669.png" alt="" />
+        <img className="w-800 h-100 mt-5" src="https://store.supercell.com/_next/static/media/royale-store-preview-cta-figure.a4892669.png" alt="" />
 
 
       </div>
