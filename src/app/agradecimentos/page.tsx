@@ -6,9 +6,9 @@ export default function BotaoGif() {
   const [mostrar, setMostrar] = useState(false);
 
   // 🔧 Links editáveis:
-  const gifUrl = "https://media.tenor.com/_hUq1BSUsiMAAAAM/cat-cute.gif";
+  const gifUrl = "/cat-cute.gif";
   const imagemUrl =
-    "https://st2.depositphotos.com/2977159/7409/i/450/depositphotos_74091455-stock-photo-threat-to-computer-hardware-concept.jpg";
+    "/pc-rafael.jpg";
 
   // 🔧 Textos editáveis:
   const textoSobreGif = "VOCÊ ACHOU UM JUMP THE CAT";
@@ -66,7 +66,12 @@ export default function BotaoGif() {
               alt="Gif escolhido"
               className="rounded-lg shadow-lg w-72"
             />
-            <span className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-red-500 font-bold drop-shadow-lg">
+            <span
+              className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-red-500 font-bold"
+              style={{
+                textShadow: "2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000"
+              }}
+            >
               {textoSobreGif}
             </span>
           </div>
@@ -78,7 +83,12 @@ export default function BotaoGif() {
               alt="Imagem escolhida"
               className="rounded-lg shadow-lg w-72"
             />
-            <span className="absolute top-4 left-1/2 transform -translate-x-1/2 text-red-500 font-bold drop-shadow-lg">
+            <span
+              className="absolute top-4 left-1/2 transform -translate-x-1/2 text-red-500 font-bold"
+              style={{
+                textShadow: "2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000"
+              }}
+            >
               {textoSobreImagem}
             </span>
           </div>
